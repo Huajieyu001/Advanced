@@ -1,4 +1,4 @@
-package top.huajieyu001.jvm.prac;
+package top.huajieyu001.jvm.base.p1_19.prac;
 
 public class InitDemo {
     static {
@@ -12,7 +12,7 @@ public class InitDemo {
         int j = Demo2.i;
         System.out.println(j);
         Demo3 demo3 = new Demo3();
-        Class.forName("top.huajieyu001.jvm.prac.Demo4");
+        Class.forName("top.huajieyu001.jvm.base.p1_19.prac.Demo4");
     }
 }
 
