@@ -1,4 +1,4 @@
-package top.huajieyu001.jvm.constant;
+package top.huajieyu001.jvm.base.p1_19.constant;
 
 public class StringTest {
 

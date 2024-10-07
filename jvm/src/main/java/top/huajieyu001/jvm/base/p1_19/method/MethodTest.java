@@ -1,4 +1,4 @@
-package top.huajieyu001.jvm.method;
+package top.huajieyu001.jvm.base.p1_19.method;
 
 public class MethodTest {
 
