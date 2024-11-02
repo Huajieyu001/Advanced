@@ -4,7 +4,7 @@ import java.io.File;
 public class A2B {
     public static void main(String[] args) {
         // 设置当前目录
-        File directory = new File("H:\\baiduDL\\pwd-86566586aA\\阿朱\\写真");
+        File directory = new File("H:\\baiduDL\\pwd-86566586aA\\阿朱\\微密圈福利包\\内衣店探店");
         // 设置要更改的原始后缀和目标后缀
         String originalSuffix = ".z删除ip";
         String targetSuffix = ".zip";
