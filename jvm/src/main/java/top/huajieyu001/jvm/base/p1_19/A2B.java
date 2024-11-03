@@ -4,14 +4,21 @@ import java.io.File;
 public class A2B {
     public static void main(String[] args) {
         // 设置当前目录
-        File directory = new File("H:\\baiduDL\\pwd-86566586aA\\阿朱\\微密圈福利包\\内衣店探店");
+        File directory = new File("D:\\baiduDownload\\other\\siroccofans");
         // 设置要更改的原始后缀和目标后缀
-        String originalSuffix = ".z删除ip";
-        String targetSuffix = ".zip";
+        String [] strings = new String[]{".r删a除r", ".r谁a除r"};
+
+        String targetSuffix = ".rar";
 
         // 获取当前目录下所有文件和文件夹
         File[] files = directory.listFiles();
 
+        for (String string : strings) {
+            updateEndwith(files, string, targetSuffix);
+        }
+    }
+
+    private static void updateEndwith(File[] files, String originalSuffix, String targetSuffix) {
         if (files != null) {
             for (File file : files) {
                 // 检查是否是文件以及是否具有指定的原始后缀
