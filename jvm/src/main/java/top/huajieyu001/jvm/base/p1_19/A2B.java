@@ -4,7 +4,7 @@ import java.io.File;
 public class A2B {
     public static void main(String[] args) {
         // 设置当前目录
-        File directory = new File("D:\\baiduDownload\\other\\siroccofans");
+        File directory = new File("D:\\baiduDownload\\other\\爱情陷阱");
         // 设置要更改的原始后缀和目标后缀
         String [] strings = new String[]{".r删a除r", ".r谁a除r"};
 
